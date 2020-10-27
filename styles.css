@@ -1,0 +1,33 @@
+.container {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+}
+
+.container:hover {
+    cursor: pointer;
+    background-color: teal;
+}
+
+.new-container {
+  background-color: cornflowerblue;
+  width: 300px;
+  height: 300px;
+}
+
+/* @media (max-width: 600px) {
+  .container {
+    background-color: blue;
+  }
+  .new-container {
+    background-color: tomato;
+  }
+} */
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .container {
+        height: 200px;
+        width: 200px;
+        background-color: yellowgreen;
+    }
+}
